@@ -13,3 +13,8 @@ A simple ATM simulation project in Java with multiple accounts, PIN security, de
 1. Compile:
    ```bash
    javac src/*.java
+   ```
+2. Run
+ ```
+   java src.ATMSystem
+

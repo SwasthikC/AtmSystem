@@ -1,29 +1,15 @@
-# AtmSystem
-<br>
-This program:
+ATM System
 
-• Demonstrates Encapsulation (private fields, accessed via methods).
+A simple ATM simulation project in Java with multiple accounts, PIN security, deposit, withdrawal, and balance check features.
 
-• Provides PIN Security (all operations PIN-validated).
+## Features
+- Multiple user accounts
+- PIN-protected transactions
+- Deposit, Withdraw, Balance Check
+- Minimum balance enforcement (₹500)
+- Switch between accounts
 
-• Uses Multiple Objects (different customers/accounts).
-
-• Handles both successful and failed deposit/withdrawal scenarios
-
-✨Features:
-
-• User chooses Deposit, Withdraw, Balance, Exit from a menu.
-
-• PIN is entered before each transaction.
-
-• Maintains 500 minimum balance.
-
-• Shows both success & failure cases interactively.
-
-• Multiple Accounts user selects  which account to use.
-
-• Account Switching - after transactions, user can switch to another account.
-
-• PIN Protection → every transaction is secure.
-
-• Menu-driven → feels like a real ATM.
+## How to Run
+1. Compile:
+   ```bash
+   javac src/*.java

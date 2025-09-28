@@ -1,5 +1,4 @@
 # AtmSystem
-My first java project
 <br>
 This program:
 
